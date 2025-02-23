@@ -1,0 +1,98 @@
+{
+  "header": {
+    "NAV_ITEMS": [
+      { "href": "#Reviews", "label": "Reviews" },
+      { "href": "#Certified", "label": "About" },
+      { "href": "#Comparison", "label": "Comparison" },
+      { "href": "#Before&After", "label": "Before & After" },
+      { "href": "#ContactForm", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "consultation": "Free consultation",
+    "content": {
+      "professionalism": "Professional Bathtub Refinishing in Los Angeles and its surroundings",
+      "toxic": "Non-toxic bathtub refinishing, sinks, and shower trays. Without the smell, noise and dust. Much more durable than spray"
+    }
+  },
+  "certified": {
+    "experience": "We have been making clients happy for ",
+    "years": "over 7 years",
+    "technics": "We use advanced techniques and easily repair cracks and rust on sinks, bathtubs, and shower trays. We are Armoglaze certified.",
+    "warranty": "We provide a 5-year warranty for residential premises and a 3-year warranty for commercial premises. You can rest assured of quality.",
+    "features": [
+      { "icon": "/assets/logo/certificate.svg", "text": "We have a certificate" },
+      { "icon": "/assets/logo/star.svg", "text": "We give a guarantee" },
+      { "icon": "/assets/logo/fix.svg", "text": "We fix chips and scratches" },
+      { "icon": "/assets/logo/hands.svg", "text": "We have more than 100 reviews" }
+    ]
+  },
+  "benefits": {
+    "title": "Why our method is better than replacing your bathtub?",
+    "items": [
+      {
+        "title": "Cost-Effective",
+        "content": {
+          "firstString": "Refinishing costs ",
+          "secondaryString":"only $400-$600",
+          "threeString": ", significantly less than the $5,000-$6,000 required for a full bathtub replacement."
+        },
+        "highlight": "only $400-$600",
+        "additionalClass": "lg:ml-12"
+      },
+      {
+        "title": "No Construction Mess",
+        "content": "Unlike replacements that require breaking through walls and creating construction debris, our product involves a simple pour-on application, eliminating odors and dust without the mess."
+      },
+      {
+        "title": "Time-Saving",
+        "content": "The Refinishing process takes just 3-4 hours, compared to the 5-7 days needed for replacement, minimizing disruption to your daily routine.",
+        "additionalClass": "lg:ml-10"
+      },
+      {
+        "title": "Eco-Friendly",
+        "content": "By refinishing your existing bathtub, you reduce waste and avoid the environmental impact. Environmentally friendly and safe for children and animals."
+      },
+      {
+        "title": "Durable Finish",
+        "content": "Our product provides a high-quality, long-lasting finish that rejuvenates your tub's surface, ensuring it looks brand new.",
+        "additionalClass": "lg:ml-10"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Compare our method with others",
+    "tableHeaders": {
+      "method": "Method",
+      "armoglaze": "Armoglaze Pour-On",
+      "spray": "Spray method"
+    },
+    "data": [
+      { "method": "Odorless", "armoglaze": true, "text": "Yes", "spray": "No" },
+      { "method": "Non-Toxic", "armoglaze": true, "text": "Yes", "spray": "Very toxic" },
+      { "method": "Without leaving home", "armoglaze": true, "text": "Yes", "spray": "No" },
+      { "method": "Dust", "armoglaze": true, "text": "No", "spray": "A lot" },
+      { "method": "Need exhaust system", "armoglaze": true, "text": "No", "spray": "Yes" },
+      { "method": "Thickness", "armoglaze": true, "text": "1/16 inch = 1.5mm", "spray": "1/160 = 0.15mm" },
+      { "method": "Durability", "armoglaze": true, "text": "15-20 years", "spray": "2-5 years" },
+      { "method": "Bathtub mat with suction cups", "armoglaze": true, "text": "Yes", "spray": "No" },
+      { "method": "Peeling if dripping faucet", "armoglaze": true, "text": "No", "spray": "Yes (in 2-3 weeks)" }
+    ]
+  },
+  "works": {
+    "title": "We have completed ",
+    "titleColorful": "more than 200 works"
+  },
+  "contact":{
+    "title": "Let's get in touch for free consultation!",
+    "description": "We will give you a consultation on your situation and tell you about all the nuances. This does not obligate you to anything.",
+    "subscribe": "Subscribe to us to receive useful information"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "zip-code": "Zip-code",
+    "consultation": "Send for free consultation"
+  }
+}

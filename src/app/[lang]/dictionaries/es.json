@@ -1,0 +1,98 @@
+{
+  "header": {
+    "NAV_ITEMS": [
+      { "href": "#Reviews", "label": "Reseñas" },
+      { "href": "#Certified", "label": "Acerca de" },
+      { "href": "#Benefits", "label": "Comparación" },
+      { "href": "#Compare", "label": "Antes y Después" },
+      { "href": "#ContactForm", "label": "Contacto" }
+    ]
+  },
+  "hero": {
+    "consultation": "Consulta gratuita",
+    "content": {
+      "professionalism": "Refinamiento profesional de bañeras en Los Ángeles y sus alrededores",
+      "toxic": "Refinamiento no tóxico de bañeras, lavabos y bandejas de ducha. Sin olor, ruido ni polvo. Mucho más duradero que el aerosol"
+    }
+  },
+  "certified": {
+    "experience": "Hacemos felices a nuestros clientes desde hace ",
+    "years": "más de 7 años",
+    "technics": "Utilizamos técnicas avanzadas y reparamos fácilmente grietas y óxido en lavabos, bañeras y bandejas de ducha. Estamos certificados por Armoglaze.",
+    "warranty": "Ofrecemos una garantía de 5 años para viviendas residenciales y una garantía de 3 años para locales comerciales. Puede estar seguro de la calidad.",
+    "features": [
+      { "icon": "/assets/logo/certificate.svg", "text": "Tenemos un certificado" },
+      { "icon": "/assets/logo/star.svg", "text": "Damos una garantía" },
+      { "icon": "/assets/logo/fix.svg", "text": "Reparamos astillas y arañazos" },
+      { "icon": "/assets/logo/hands.svg", "text": "Tenemos más de 100 reseñas" }
+    ]
+  },
+  "benefits": {
+    "title": "¿Por qué nuestro método es mejor que reemplazar su bañera?",
+    "items": [
+      {
+        "title": "Rentable",
+        "content": {
+          "firstString": "El refinamiento cuesta ",
+          "secondaryString": "solo $400-$600",
+          "threeString": ", significativamente menos que los $5,000-$6,000 requeridos para un reemplazo completo de la bañera."
+        },
+        "highlight": "solo $400-$600",
+        "additionalClass": "lg:ml-12"
+      },
+      {
+        "title": "Sin desorden de construcción",
+        "content": "A diferencia de los reemplazos que requieren romper paredes y crear escombros de construcción, nuestro producto implica una simple aplicación vertida, eliminando olores y polvo sin el desorden."
+      },
+      {
+        "title": "Ahorro de tiempo",
+        "content": "El proceso de refinamiento toma solo 3-4 horas, en comparación con los 5-7 días necesarios para el reemplazo, minimizando la interrupción de su rutina diaria.",
+        "additionalClass": "lg:ml-10"
+      },
+      {
+        "title": "Ecológico",
+        "content": "Al refinar su bañera existente, reduce los desechos y evita el impacto ambiental. Ecológico y seguro para niños y animales."
+      },
+      {
+        "title": "Acabado duradero",
+        "content": "Nuestro producto proporciona un acabado de alta calidad y larga duración que rejuvenece la superficie de su bañera, asegurando que se vea como nueva.",
+        "additionalClass": "lg:ml-10"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Compare nuestro método con otros",
+    "tableHeaders": {
+      "method": "Método",
+      "armoglaze": "Método de vertido Armoglaze",
+      "spray": "Método de pulverización"
+    },
+    "data": [
+      { "method": "Sin olor", "armoglaze": true, "text": "Sí", "spray": "No" },
+      { "method": "No tóxico", "armoglaze": true, "text": "Sí", "spray": "Muy tóxico" },
+      { "method": "Sin salir de casa", "armoglaze": true, "text": "Sí", "spray": "No" },
+      { "method": "Polvo", "armoglaze": true, "text": "No", "spray": "Mucho" },
+      { "method": "Necesita sistema de extracción", "armoglaze": true, "text": "No", "spray": "Sí" },
+      { "method": "Espesor", "armoglaze": true, "text": "1/16 pulgada = 1.5mm", "spray": "1/160 = 0.15mm" },
+      { "method": "Durabilidad", "armoglaze": true, "text": "15-20 años", "spray": "2-5 años" },
+      { "method": "Alfombrilla de bañera con ventosas", "armoglaze": true, "text": "Sí", "spray": "No" },
+      { "method": "Desprendimiento si el grifo gotea", "armoglaze": true, "text": "No", "spray": "Sí (en 2-3 semanas)" }
+    ]
+  },
+  "works": {
+    "title": "Hemos completado más de 200 trabajos",
+    "titleColorful": "más de 200 trabajos"
+  },
+  "contact": {
+    "title": "¡Póngase en contacto con nosotros para una consulta gratuita!",
+    "description": "Le daremos una consulta sobre su situación y le contaremos sobre todos los matices. Esto no le obliga a nada.",
+    "subscribe": "Suscríbase a nosotros para recibir información útil"
+  },
+  "form": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "zip-code": "Código postal",
+    "consultation": "Enviar para consulta gratuita"
+  }
+}
