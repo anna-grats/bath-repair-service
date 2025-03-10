@@ -8,6 +8,8 @@ import Reviews from '@/sections/Reviews/Reviews';
 import Works from '@/sections/Works/Works';
 import ContactForm from '@/sections/ContactForm/ContactForm';
 import Footer from '@/sections/Footer/Footer';
+import Faq from '@/components/FAQ';
+
 
 export default async function Home({ params: { lang } }: any) {
     const dict = await getDictionary(lang)
@@ -21,6 +23,7 @@ export default async function Home({ params: { lang } }: any) {
                 <Compare compare={dict.compare} />
                 <Reviews />
                 <Works works={dict.works} />
+                <Faq />
                 <ContactForm contact={dict.contact} />
                 <Footer />
         </>
