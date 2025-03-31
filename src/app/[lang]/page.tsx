@@ -9,7 +9,7 @@ import Works from '@/sections/Works/Works';
 import ContactForm from '@/sections/ContactForm/ContactForm';
 import Footer from '@/sections/Footer/Footer';
 import Faq from '@/components/FAQ';
-import Calculator from '@/components/Calculator/Calculator';
+import Calculator from '@/sections/Calculator/Calculator';
 
 
 export default async function Home({ params: { lang } }: any) {
