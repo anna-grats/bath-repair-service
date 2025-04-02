@@ -85,7 +85,7 @@ const CostCalculator: React.FC = () => {
             </div>
           </div>
   
-          <div className="w-auto min-w-[250px]">
+          <div className="w-auto min-w-[250px] ml-4">
             <p className="font-semibold mb-6">Indicate the presence of defects:</p>
             <div className="space-y-2">
               {Object.entries(COSTS.defects).map(([key, price]) => (
