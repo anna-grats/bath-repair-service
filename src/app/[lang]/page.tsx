@@ -9,6 +9,7 @@ import Works from '@/sections/Works/Works';
 import ContactForm from '@/sections/ContactForm/ContactForm';
 import Footer from '@/sections/Footer/Footer';
 import Faq from '@/components/FAQ';
+import Calculator from '@/sections/Calculator/Calculator';
 
 
 export default async function Home({ params: { lang } }: any) {
@@ -23,6 +24,7 @@ export default async function Home({ params: { lang } }: any) {
                 <Compare compare={dict.compare} />
                 <Reviews />
                 <Works works={dict.works} />
+                <Calculator />
                 <Faq />
                 <ContactForm contact={dict.contact} />
                 <Footer />
