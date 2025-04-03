@@ -13,7 +13,7 @@ import HeaderG from "./HeaderG";
 const images = [
   { after: "/assets/images/works/bath_1_after.png", before: "/assets/images/works/bath_1_before.png" },
   { after: "/assets/images/works/bath_2_after.png", before: "/assets/images/works/bath_2_before.png" },
-  { after: "/assets/images/works/bath_3_after.jpg", before: "/assets/images/works/bath_3_before.jpg" },
+  { after: "/assets/images/works/bath_3_after.jpg", before: "/assets/images/works/bath_3_before.png" },
   { after: "/assets/images/works/bath_4_after.png", before: "/assets/images/works/bath_4_before.png" },
   { after: "/assets/images/works/bath_5_after.jpg", before: "/assets/images/works/bath_5_before.jpg" },
   { after: "/assets/images/works/bath_6_after.png", before: "/assets/images/works/bath_6_before.png" },
