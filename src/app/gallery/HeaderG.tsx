@@ -5,6 +5,7 @@ import Logo from '@/components/Header/Logo/Logo';
 import Navigation from '@/components/Header/Navigation/Navigation';
 import Actions from '@/components/Header/Actions/Actions';
 import Link from 'next/link';
+import ActionsG from './Actions';
 
 interface HeaderProps {
     header?: {
@@ -15,7 +16,7 @@ interface HeaderProps {
     };
 }
 
-const Header: React.FC<HeaderProps> = ({ header }) => {
+const HeaderG: React.FC<HeaderProps> = ({ header }) => {
     const [isSticky, setIsSticky] = useState(false);
 
     const handleScroll = () => {
@@ -34,10 +35,10 @@ const Header: React.FC<HeaderProps> = ({ header }) => {
             <div className="container mx-auto flex justify-between items-center h-full p-1">
                 <Link href={`/en`}><Logo /></Link>
                 {header?.NAV_ITEMS && <Navigation NAV_ITEMS={header.NAV_ITEMS} />}
-                <Actions />
+                <ActionsG />
             </div>
         </header>
     );
 };
 
-export default Header;
+export default HeaderG;

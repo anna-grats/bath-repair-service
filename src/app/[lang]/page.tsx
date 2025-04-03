@@ -10,6 +10,8 @@ import ContactForm from '@/sections/ContactForm/ContactForm';
 import Footer from '@/sections/Footer/Footer';
 import Faq from '@/components/FAQ';
 import Calculator from '@/sections/Calculator/Calculator';
+import ScrollToTop from '@/components/Top/Top';
+
 
 
 export default async function Home({ params: { lang } }: any) {
@@ -26,6 +28,7 @@ export default async function Home({ params: { lang } }: any) {
                 <Works works={dict.works} />
                 <Calculator />
                 <Faq />
+                <ScrollToTop />
                 <ContactForm contact={dict.contact} />
                 <Footer />
         </>
