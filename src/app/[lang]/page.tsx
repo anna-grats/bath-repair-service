@@ -10,7 +10,8 @@ import ContactForm from '@/sections/ContactForm/ContactForm';
 import Footer from '@/sections/Footer/Footer';
 import Faq from '@/components/FAQ';
 import Calculator from '@/sections/Calculator/Calculator';
-import ScrollToTop from '@/components/Top/Top';
+import ScrollToTop from '@/components/Top/top';
+
 
 
 
