@@ -17,7 +17,7 @@ const images = [
   },
   {
     after: "/assets/images/works/bath_3_after.jpg",
-    before: "/assets/images/works/bath_3_before.jpg",
+    before: "/assets/images/works/bath_3_before.png",
   },
   {
     after: "/assets/images/works/bath_4_after.png",
