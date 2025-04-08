@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import Logo from '@/components/Header/Logo/Logo';
 import Navigation from '@/components/Header/Navigation/Navigation';
-import Actions from '@/components/Header/Actions/Actions';
 import Link from 'next/link';
 import ActionsG from './Actions';
 

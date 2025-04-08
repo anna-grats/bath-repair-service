@@ -22,7 +22,6 @@ import Form from '@/components/Form';
                         className="w-full z-0 text-black font-raleway text-[20px] font-semibold leading-[42px] text-left">
                                 Free consultation
                     </span>
-
                     <div className='mt-5'>
                     <Form isVertical={true}/>
                     </div>

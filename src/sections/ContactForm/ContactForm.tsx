@@ -10,6 +10,8 @@ interface Contact {
         "subscribe": string;
     },
 }
+
+
 const ContactForm: React.FC = ({ contact }: Contact) => {
     return (
         <Section id='ContactForm' py={12}>

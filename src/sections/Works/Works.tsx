@@ -37,6 +37,7 @@ interface WorksProps {
   works: {
     title: string;
     titleColorful: string;
+    moreButton: string;
   };
 }
 
@@ -80,9 +81,10 @@ const Works: React.FC<WorksProps> = ({ works }) => {
         target="blank"
         className="flex flex-col items-center justify-center mt-8"
       >
-        <button className="bg-primary text-center  text-white font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-700 transition duration-300">
-          More works
-        </button>
+       <button className="bg-primary text-center text-white font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-700 transition duration-300">
+  {works.moreButton}
+</button>
+
       </Link>
     </Section>
   );
