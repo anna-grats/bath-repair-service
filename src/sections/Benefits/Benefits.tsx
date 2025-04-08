@@ -5,20 +5,25 @@ import BenefitCard from '@/components/Benefits/BenefitCard/BenefitCard';
 interface ItemsContent {
     firstString: string;
     secondaryString: string;
-    threeString;
+    threeString: string; 
 }
-interface BenefitsItems{
+
+interface BenefitsItems {
     title: string;
-    content: string & ItemsContent
-}
-interface Benefits {
-    title: string;
-    items: BenefitsItems[];
-    highlight: string;
+    content: ItemsContent; 
     additionalClass: string;
 }
 
-const Benefits: React.FC = ({ benefits }:Benefits) => {
+interface BenefitsProps { 
+    benefits: {
+        title: string;
+        items: BenefitsItems[];
+        highlight: string;
+        additionalClass: string;
+    };
+}
+
+const Benefits: React.FC<BenefitsProps> = ({ benefits }) => { 
     return (
         <Section id='Benefits' py={12}>
             <div className="max-w-[1096px] mx-auto relative">
@@ -27,12 +32,12 @@ const Benefits: React.FC = ({ benefits }:Benefits) => {
                         <img
                             src='assets/images/vectors/blue_vector_2.png'
                             className="absolute inset-0 w-full h-full object-cover transform blur-lg"
-                         alt='blue vector 2'/>
+                            alt='blue vector 2'/>
                         <h2 className="relative text-[32px] lg:text-[38px] font-semibold leading-[40px] lg:leading-[48px] pr-10 mt-[10px] text-gray-900">
                             {benefits.title}
                         </h2>
                     </div>
-                    {benefits.items.map(({ title, content, additionalClass }, index) => (
+                    {benefits.items.map(({ title, content, additionalClass }: BenefitsItems, index: number) => (
                         <BenefitCard
                             key={index}
                             title={title}
