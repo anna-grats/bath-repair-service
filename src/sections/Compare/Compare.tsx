@@ -22,7 +22,11 @@ interface Compare {
     title: string;
     tableHeaders: Headers;
 }
-const Compare: React.FC = ({ compare }: Compare) => {
+
+interface CompareProps {
+    compare: any; 
+  }
+const Compare: React.FC<CompareProps> = ({ compare }) => {
     return (
         <Section id='Comparison' py={12} bg='#F4F7FA'>
             <div className="max-w-[777px] mx-auto rounded-3xl p-6 lg:p-8">

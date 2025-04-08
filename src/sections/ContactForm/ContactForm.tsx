@@ -4,15 +4,15 @@ import Form from '@/components/Form';
 import Divider from '@/components/Divider/Divider';
 
 interface Contact {
-    "contact": {
-        "title": string;
-        "description": string;
-        "subscribe": string;
-    },
+    contact: {
+        title: string;
+        description: string;
+        subscribe: string;
+    };
 }
 
-
-const ContactForm: React.FC = ({ contact }: Contact) => {
+// The component now correctly expects 'contact' as a prop based on the Contact interface
+const ContactForm: React.FC<Contact> = ({ contact }) => {
     return (
         <Section id='ContactForm' py={12}>
             <div className="max-w-[1096px] px-7 py-5 mx-auto bg-white rounded-3xl">
@@ -26,7 +26,7 @@ const ContactForm: React.FC = ({ contact }: Contact) => {
                         </p>
                     </div>
                     <div>
-                        <Form/>
+                        <Form />
                     </div>
                 </div>
                 <Divider mt='30px' mb='30px'/>
@@ -46,7 +46,6 @@ const ContactForm: React.FC = ({ contact }: Contact) => {
                                target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-[#2195D7]">
                                 1353 N Martel Ave, Los Angeles, CA, 90046
                             </a>
-
                         </div>
                     </div>
                     <div className="mr-[120px] flex flex-col mt-4">
@@ -61,7 +60,7 @@ const ContactForm: React.FC = ({ contact }: Contact) => {
                                className="text-gray-700"
                                target="_blank"
                             >
-                                <img src="/assets/logo/fb.svg"alt="Facebook"/>
+                                <img src="/assets/logo/fb.svg" alt="Facebook"/>
                             </a>
                             <a href="https://www.youtube.com/@DaniloffLLC" target="_blank" className="text-gray-700">
                                 <img src="/assets/logo/yt.svg" alt="YouTube"/>

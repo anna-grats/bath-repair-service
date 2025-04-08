@@ -8,7 +8,9 @@ const LanguageSwitcher = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [currentLocale, setCurrentLocale] = useState('EN'); 
     const router = useRouter();
-    const menuRef = useRef(null);
+    
+    // Typing the menuRef to refer to a div element
+    const menuRef = useRef<HTMLDivElement | null>(null);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -24,8 +26,9 @@ const LanguageSwitcher = () => {
         setCurrentLocale(locale.toUpperCase());
     };
 
-    const handleClickOutside = (event) => {
-        if (menuRef.current && !menuRef.current.contains(event.target)) {
+    // Typing event as MouseEvent
+    const handleClickOutside = (event: MouseEvent) => {
+        if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
             setIsMenuOpen(false);
         }
     };
@@ -125,7 +128,7 @@ const LanguageSwitcher = () => {
                                 Comparison
                             </Link>
                             <Link onClick={toggleMainMenu} href="#Faq" className="text-gray-700 text-xl pb-6">
-                                FAQ                            
+                                FAQ
                             </Link>
                             <Link onClick={toggleMainMenu} href="#Before&After" className="text-gray-700 text-xl pb-6">
                                 Before & After
