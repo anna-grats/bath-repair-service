@@ -79,20 +79,43 @@
       { "method": "Peeling if dripping faucet", "armoglaze": true, "text": "No", "spray": "Yes (in 2-3 weeks)" }
     ]
   },
+  "faq": 
+     [
+      { "question": "Are you insured?", "answer": "Absolutely! Daniloff LLC is fully insured, so you can book our services with confidence." },
+      { "question": "Do you work with property managers, hotels, or apartment complexes?", "answer": "Yes! We specialize in working with property management companies, hotels, and apartment complexes to help them save on expensive bathtub replacements." },
+      { "question": "Do you offer a warranty for your services?", "answer": "Yes! We provide a 5-year warranty on all reglazing services." },
+      { "question": "What’s the difference between spray refinishing and liquid Armoglaze?", "answer": "Unlike spray painting, which creates thin, flimsy coatings, our Armoglaze method creates a coating that is 10 times thicker, stronger and smoother, without runs or uneven spots." },
+      { "question": "How soon can I use my bathtub after refinishing?", "answer": "Your tub will be ready to use in just 24 hours after reglazing. The process itself only takes about 4 hours." },
+      { "question": "Is bathtub refinishing safe and odor-free?", "answer": "Yes! We use a non-toxic, odorless method that is safe for your home and health. Unlike traditional spray coatings, our process does not emit harmful fumes." },
+      { "question": "How long does bathtub reglazing last?", "answer": "Our Armoglaze refinishing lasts 15-20 years with proper care. It's much more durable than spray polishing." }
+    ]
+  ,
   "works": {
     "title": "We have completed ",
-    "titleColorful": "more than 200 works"
+    "titleColorful": "more than 200 works",
+    "moreButton": "More works"
   },
   "contact":{
     "title": "Let's get in touch for free consultation!",
     "description": "We will give you a consultation on your situation and tell you about all the nuances. This does not obligate you to anything.",
     "subscribe": "Subscribe to us to receive useful information"
   },
-  "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "zip-code": "Zip-code",
-    "consultation": "Send for free consultation"
+  "calculator": {
+    "title": "Calculate the approximate cost",
+    "plumbingType": "Specify the type of plumbing:",
+    "bath": "Bath",
+    "jacuzzi": "Jacuzzi",
+    "sink": "Sink",
+    "showerTray": "Shower tray",
+    "defectsTitle": "Indicate the presence of defects:",
+    "defects": {
+      "chips": "Chips",
+      "cracks": "Cracks",
+      "rust": "Rust",
+      "holes": "Holes"
+    },
+    "calculateButton": "Calculate",
+    "total": "Total: $ {{total}}",
+    "note": "*excluding the specialist's visit and precise assessment"
   }
 }

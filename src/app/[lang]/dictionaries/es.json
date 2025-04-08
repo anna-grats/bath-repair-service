@@ -79,20 +79,42 @@
       { "method": "Desprendimiento si el grifo gotea", "armoglaze": true, "text": "No", "spray": "Sí (en 2-3 semanas)" }
     ]
   },
+  "faq": [
+      { "question": "Están asegurados?", "answer": "Absolutamente! Daniloff LLC está totalmente asegurado, por lo que puede reservar nuestros servicios con confianza." },
+      { "question": "Trabajan con administradores de propiedades, hoteles o complejos de apartamentos?", "answer": "Sí! Nos especializamos en trabajar con empresas de administración de propiedades, hoteles y complejos de apartamentos para ayudarles a ahorrar en costosos reemplazos de bañeras." },
+      { "question": "Ofrecen garantía para sus servicios?", "answer": "Sí! Ofrecemos una garantía de 5 años en todos los servicios de reacondicionamiento." },
+      { "question": "Cuál es la diferencia entre el refinamiento en aerosol y Armoglaze líquido?", "answer": "A diferencia de la pintura en aerosol, que crea capas delgadas y débiles, nuestro método Armoglaze crea un revestimiento 10 veces más grueso, más fuerte y más suave, sin goteos ni manchas desiguales." },
+      { "question": "Cuándo puedo usar mi bañera después del reacondicionamiento?", "answer": "Su bañera estará lista para usarse en solo 24 horas después del reacondicionamiento. El proceso en sí solo toma unas 4 horas." },
+      { "question": "El refinamiento de la bañera es seguro y libre de olores?", "answer": "Sí! Utilizamos un método no tóxico y sin olor que es seguro para su hogar y salud. A diferencia de los recubrimientos en aerosol tradicionales, nuestro proceso no emite vapores nocivos." },
+      { "question": "Cuánto dura el reacondicionamiento de la bañera?", "answer": "Nuestro reacondicionamiento con Armoglaze dura de 15 a 20 años con el cuidado adecuado. Es mucho más duradero que el pulido en aerosol." }
+    ]
+  ,
   "works": {
     "title": "Hemos completado más de 200 trabajos",
-    "titleColorful": "más de 200 trabajos"
+    "titleColorful": "más de 200 trabajos",
+    "moreButton": "Más obras"
   },
   "contact": {
     "title": "¡Póngase en contacto con nosotros para una consulta gratuita!",
     "description": "Le daremos una consulta sobre su situación y le contaremos sobre todos los matices. Esto no le obliga a nada.",
     "subscribe": "Suscríbase a nosotros para recibir información útil"
   },
-  "form": {
-    "name": "Nombre",
-    "email": "Correo electrónico",
-    "phone": "Teléfono",
-    "zip-code": "Código postal",
-    "consultation": "Enviar para consulta gratuita"
+  "calculator": {
+    "title": "Calcula el coste aproximado",
+    "plumbingType": "Especifique el tipo de plomería:",
+    "bath": "Baño",
+    "jacuzzi": "jacuzzi",
+    "sink": "Hundir",
+    "showerTray": "Intento de sacudiry",
+    "defectsTitle": "Indique la presencia de defectos:",
+    "defects": {
+      "chips": "Papas fritas",
+      "cracks": "Teñir",
+      "rust": "Altura",
+      "holes": "Agujeros"
+    },
+    "calculateButton": "Calcular",
+    "total": "Total: $ {{total}}",
+    "note": "*Excluyendo al especialista para aumentar y precisar la evaluación"
   }
 }

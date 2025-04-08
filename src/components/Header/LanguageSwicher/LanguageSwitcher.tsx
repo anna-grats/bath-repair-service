@@ -6,7 +6,7 @@ import Link from 'next/link';
 const LanguageSwitcher = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [currentLocale, setCurrentLocale] = useState('EN'); // Default language
+    const [currentLocale, setCurrentLocale] = useState('EN'); 
     const router = useRouter();
     const menuRef = useRef(null);
 
@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
     const changeLanguage = (locale: string) => {
         router.push(`/${locale}`);
         setIsOpen(false);
-        setCurrentLocale(locale.toUpperCase()); // Update the displayed language
+        setCurrentLocale(locale.toUpperCase());
     };
 
     const handleClickOutside = (event) => {
@@ -123,6 +123,9 @@ const LanguageSwitcher = () => {
                             </Link>
                             <Link onClick={toggleMainMenu} href="#Benefits" className="text-gray-700 text-xl pb-6">
                                 Comparison
+                            </Link>
+                            <Link onClick={toggleMainMenu} href="#Faq" className="text-gray-700 text-xl pb-6">
+                                FAQ                            
                             </Link>
                             <Link onClick={toggleMainMenu} href="#Before&After" className="text-gray-700 text-xl pb-6">
                                 Before & After

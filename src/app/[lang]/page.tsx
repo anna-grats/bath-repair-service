@@ -8,9 +8,9 @@ import Reviews from '@/sections/Reviews/Reviews';
 import Works from '@/sections/Works/Works';
 import ContactForm from '@/sections/ContactForm/ContactForm';
 import Footer from '@/sections/Footer/Footer';
-import Faq from '@/components/FAQ';
 import Calculator from '@/sections/Calculator/Calculator';
 import ScrollToTop from '@/components/Top/top';
+import FAQ from '@/components/FAQ/FAQ';
 
 
 
@@ -27,8 +27,8 @@ export default async function Home({ params: { lang } }: any) {
                 <Compare compare={dict.compare} />
                 <Reviews />
                 <Works works={dict.works} />
-                <Calculator />
-                <Faq />
+                <Calculator dictionary={dict.calculator} />
+                <FAQ faqData={dict.faq} />
                 <ScrollToTop />
                 <ContactForm contact={dict.contact} />
                 <Footer />
