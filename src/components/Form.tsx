@@ -12,18 +12,47 @@ const Form: React.FC<FormProps> = ({ isVertical = false }) => {
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [isError, setIsError] = useState(false);
     console.log(errors)
-    const onSubmit = async data => {
+
+    // const onSubmit = async (data: Record<string, any>) => {
+    //     try {
+    //         const response = await fetch('/api/email', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json',
+    //             },
+    //             body: JSON.stringify(data),
+    //         });
+    //
+    //         const responseData = await response.json();
+    //         console.log({ responseData });
+    //
+    //         if (response.ok) {
+    //             setIsSubmitted(true);
+    //             setIsError(false);
+    //         } else {
+    //             setIsError(true);
+    //         }
+    //     } catch (error) {
+    //         console.error("Form submission error:", error);
+    //         setIsError(true);
+    //     }
+    // };
+
+    const onSubmit = async (data: Record<string, any>) => {
         try {
-            const response = await fetch('/api/email', {
+            const response = await fetch('https://script.google.com/macros/s/AKfycby2qVKybFXFDgyz6nvvz4sqnUV9-8Ix0qKaK7sR2dNFv35b-R8bmkVpllgCEsoRwd_cHQ/exec', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'application/x-www-form-urlencoded',
                 },
-                body: JSON.stringify(data),
+                body: new URLSearchParams({
+                    Name: data.Name,
+                    Email: data.Email,
+                    Phone: data.Phone,
+                    Zipcode: data.Zipcode,
+                }).toString(),
+                //mode: 'no-cors'
             });
-
-            const responseData = await response.json();
-            console.log({ responseData });
 
             if (response.ok) {
                 setIsSubmitted(true);
