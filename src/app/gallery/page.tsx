@@ -6,7 +6,7 @@ import {
 } from "react-compare-slider";
 import Footer from "@/sections/Footer/Footer";
 import Section from "@/sections/Section";
-import ScrollToTop from "@/components/Top/top";
+import ScrollToTop from "@/components/Top/Top";
 import Link from "next/link";
 import HeaderG from "./HeaderG";
 

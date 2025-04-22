@@ -9,7 +9,7 @@ import Works from '../../sections/Works/Works';
 import ContactForm from '../../sections/ContactForm/ContactForm';
 import Footer from '../../sections/Footer/Footer';
 import Calculator from '../../sections/Calculator/Calculator';
-import ScrollToTop from '../../components/Top/top';
+import ScrollToTop from '../../components/Top/Top';
 import FAQ from '../../components/FAQ/FAQ';
 
 
