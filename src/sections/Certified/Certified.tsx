@@ -22,7 +22,7 @@ interface Certified {
         features: FeatItems[]
     }
 }
-const Certified: React.FC  = ({ certified }: Certified) => {
+const Certified: React.FC<Certified> = ({ certified }) => {
 
     return (
         <Section id='Certified' py={12} bg="#F4F7FA">
